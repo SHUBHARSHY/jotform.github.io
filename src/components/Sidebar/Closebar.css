@@ -1,0 +1,81 @@
+
+.closebar {
+  background-color: #042954;
+ position:fixed;
+
+left: 0;
+height: 96%;
+display: flex;
+/* flex-direction: column; */
+
+
+
+
+/* margin-top: 43px; */
+margin-top: 82px;
+}
+
+.inr-closebar {
+  display: flex;
+  flex-direction: column;
+  /* position: fixed; */
+}
+.icon {
+  color: #ffa901;
+  font-size: large;
+  width: 200px;
+  height: 5vh;
+  cursor: pointer;
+  border-bottom: 1px solid #021933;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+.icon:hover {
+  color: whitesmoke;
+  border-bottom: 1px solid #021933;
+}
+.close-icon {
+  color: #042954;
+  background-color: #ffa901;
+  font-size: x-large;
+  width: 205px;
+  height: 37px;
+  cursor: pointer;
+  border-bottom: 1px solid #021933;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.scrollbox{
+    overflow: auto;
+}
+
+.scrollbox-inner{
+    height: 100%;
+    overflow-y: auto;
+    position: relative;
+}
+
+::-webkit-scrollbar{
+    width: 5px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #ffa901;
+}
+.scroll-para{
+display: flex;
+justify-content:center ;
+align-items:center ;
+text-align: center;
+padding-left: 10px;
+}
+.myicon{
+width: 50px;
+background-color: #041e3d;
+height: 100%;
+display:flex ;
+justify-content: center;
+align-items: center;
+}

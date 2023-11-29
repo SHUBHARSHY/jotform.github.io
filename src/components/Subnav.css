@@ -1,0 +1,24 @@
+.navbar{
+    /* background: linear-gradient(270deg,#ff6100,#ffb841 99.97%); */
+    /* background: linear-gradient(to right, #ff9d01, #ffaa01); */
+    background-color: #262626;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    height: 44px;
+    text-align: center;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-icon{
+    font-size: large;
+    color: white;
+    font-weight: 500;
+    width: 10%;
+    text-decoration: none;
+}
